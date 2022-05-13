@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3c3b3b;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/foto5.jpg);
+    background-size: cover;
+    background-position: center;
+}
