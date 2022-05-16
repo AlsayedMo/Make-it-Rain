@@ -12,8 +12,6 @@ Product/dienst:
 Wat maakt mijn product speciaal ?
 omdat ik met een hooge kwalitijd werkt en optijd het procut inleveer met grantie 
 en we kunnen ook altijd hun website of app verbeteren
-
-
-
-
-Mohamed Alsayed 
+------
+#MY PHP
+##http://localhost/phpmyadmin/index.php?route=/table/structure&db=portfoilo&table=plaatsen
