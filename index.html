@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio Mohamed Alsayed</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="js/script.js" defer ></script>
-    
+    <script src="js/script.js" defer></script>
+
 
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,20 +18,22 @@
 
 
 </head>
+
 <body>
-    
+
     <!---Hero Article Start---->
-    <article id="praticles" class="hero">
+    <article class="hero" id="particles-js">
         <script type="text/javascript" src="/js/particles.js"></script>
         <script type="text/javascript" src="/js/app.js"></script>
         <nav>
             <h2 class="logo">Portfo<span class="knop">lio</span></h2>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">My work</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#review">reviews</a></li>
+                <li><a href="#footer">Contact</a></li>
+                <li class="menu--home"><a href="/menu/menu.html">Menu</a></li>
             </ul>
             <a href="#" class="btn">Appointment</a>
         </nav>
@@ -48,7 +50,7 @@
         </ul>
     </article>
     <!---About section start-->
-    <section class="about">
+    <section id="about" class="about">
         <ul class="main">
             <img src="img/foto2.jpg" alt="" srcset="">
             <ul class="about-text">
@@ -65,9 +67,9 @@
         </ul>
     </section>
     <!--service section start-->
-    <ul class="service">
+    <ul id="service" class="service">
         <ul class="title">
-            <h2>My service</h2>
+            <h2>My Service</h2>
         </ul>
         <ul class="box">
             <ul class="card">
@@ -107,11 +109,12 @@
                     </p>
                 </ul>
             </ul>
+
         </ul>
     </ul>
 
     <!------REVIEW Start------->
-    <h2 class="review--titel">Review</h2>
+    <h2 id="review" class="review--titel">Review</h2>
     <section class="section section--third">
         <a href="#reviews" class="arrow">
             <span class="rgb"><i class="fa-solid fa-circle-chevron-left"></i></span></a>
@@ -212,19 +215,102 @@
             <span class="rgb"><i class="fa-solid fa-circle-chevron-right"></i></i></span></i>
         </a>
     </section>
-    <!------contact me------->
-    <div class="contact-me">
-        <p>Let Me Get You A Beautiful Website </p>
-        <!--img src="img/foto3.jpg" alt="" srcset=""-->
-        <a class="button-two" href="#"> Hire Me </a>
-    </div>
+
+
+
+
+
+    <!------Kaartje------->
+
+    <section class="card--review--body">
+        <Figure class="circle circle--first"></Figure>
+        <Figure class="circle circle--second"></Figure>
+        <article class="card--review">
+            <figure class="card--figure">
+                <img src="/img/foto6.jpeg" alt="web desiner">
+            </figure>
+            <section class="card--body">
+                <ul class="card--categoriers">
+                    <li class="card--category card--category--websites">websites</li>
+                    <li class="card--category card--category--Designer">Designer</li>
+                    <li class="card--category card--category--ontwikkeling">ontwikkeling</li>
+                </ul>
+                <header>
+                    <h2 class="card--heading">Als je mooie websites wilt opbouwen</h2>
+                </header>
+                <p class="card--p">
+                    het was leuk om met hem te werken hij doet zijn werkt met en hooge kwalitijd
+                    en mooi optijd, het was fijn om mijn website bij Mo te ontwikkeling
+                </p>
+            </section>
+            <footer class="card--footer--bloken">
+                <img class="card--pf" src="/img/me.jpg" alt="">
+                <div class="name--uren--footer--bloken">
+                    <h3>Mohamed Alsayed</h3>
+                    <p>3 uur geleden</p>
+                </div>
+
+            </footer>
+        </article>
+        <article class="card--review">
+            <figure class="card--figure">
+                <img src="/img/foto7.jpg" alt="web desiner">
+            </figure>
+            <section class="card--body">
+                <ul class="card--categoriers">
+                    <li class="card--category card--category--websites">websites</li>
+                    <li class="card--category card--category--ontwikkeling">ontwikkeling</li>
+                </ul>
+                <header>
+                    <h2 class="card--heading">Mo heeft een gaaf websites voor mij Winkle opgebouwt</h2>
+                </header>
+                <p class="card--p">
+                    het was leuk om met hem te werken hij doet zijn werkt met en hooge kwalitijd
+                    en mooi optijd, het was fijn om mijn website bij Mo te ontwikkeling
+                </p>
+            </section>
+            <footer class="card--footer--bloken">
+                <img class="card--pf" src="/img/me.jpg" alt="">
+                <div class="name--uren--footer--bloken">
+                    <h3>Mohamed Alsayed</h3>
+                    <p>3 uur geleden</p>
+                </div>
+            </footer>
+        </article>
+        <article class="card--review">
+            <figure class="card--figure">
+                <img src="/img/foto8.jpg" alt="web desiner">
+            </figure>
+            <section class="card--body">
+                <ul class="card--categoriers">
+                    <li class="card--category card--category--Designer">Designer</li>
+                    <li class="card--category card--category--ontwikkeling">ontwikkeling</li>
+                </ul>
+                <header>
+                    <h2 class="card--heading">beste designer </h2>
+                </header>
+                <p class="card--p">
+                    het was leuk om met hem te werken hij doet zijn werkt met en hooge kwalitijd
+                    en mooi optijd, het was fijn om mijn website bij Mo te ontwikkeling
+                </p>
+            </section>
+            <footer class="card--footer--bloken">
+                <img class="card--pf" src="/img/me.jpg" alt="">
+                <div class="name--uren--footer--bloken">
+                    <h3>Mohamed Alsayed</h3>
+                    <p>6 uur geleden</p>
+                </div>
+
+            </footer>
+        </article>
+    </section>
     <!---Footer Start---->
-    <footer>
-        <p>Mohamed Alsayed</p>
+    <footer class="pageFooter">
+        <p id="footer">Mohamed Alsayed</p>
         <p>For more HTML,CSS, and coding tutorial - click on the link below to make an Appointment</p>
         <ul class="social-icons">
             <li>
-                <a href="" style="color: lawngreen;">
+                <a href="#" style="color: lawngreen;">
                     <i class="fab fa-whatsapp"></i></a>
                 -
                 <a href="#" style="color: deeppink;">
@@ -235,6 +321,15 @@
                 -
                 <a href="#" style="color: yellow;">
                     <i class="fab fa-snapchat"></i></a>
+                -
+                <a href="#" style="color: rgb(87, 87, 86);">
+                    <i class="fab fa-github"></i></a>
+                -
+                <a href="#" style="color: rgb(10, 102, 194);">
+                    <i class="fab fa-linkedin-in"></i></a>
+                -
+                <a href="#" style="color: rgb(88, 101, 242);">
+                    <i class="fab fa-discord"></i></a>
             </li>
         </ul>
     </footer>
